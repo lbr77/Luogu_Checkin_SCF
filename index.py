@@ -4,13 +4,13 @@ cookie_list = [
     {
         # "cookie": "__client_id=60e12329284353af9eb17348aa13ca22861420c8; _uid=76102",
         "cookie": {
-            "__client_id": "60e12329284353af9eb17348aa13ca22861420c8",
-            "_uid": "76102"
+            "__client_id": "",
+            "_uid": ""
         },
-        "qq": "2298454647"
+        "qq": ""
     }
 ]
-SENDKEY = "fd8364cb8c547a8c011b66d765502be3"
+SENDKEY = ""
 def checkin():
     for cookie in cookie_list:
         resp = r.get("https://www.luogu.com.cn/index/ajax_punch",cookies = cookie["cookie"],headers = {
