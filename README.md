@@ -2,7 +2,7 @@
 使用scf云函数打卡洛谷
 
 ## Use 
-在此https://console.cloud.tencent.com/scf新建一个函数，上传从release中下载的zip
+在此https://console.cloud.tencent.com/scf 新建一个函数，上传从release中下载的zip
 
 然后修改index.py内容，
 填入你的洛谷cookie，还有qq号，和从qmsg酱中获得的sendkey
